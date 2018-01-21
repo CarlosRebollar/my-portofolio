@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Portofolio</title>
+    <link rel="stylesheet" href="index.css">
   </head>
-  <body>
-    <h1 id="top">My personal Portofolio</h1>
+  <body style="background-color: #c3c388;">
+    <h1 id="title">My personal Portofolio</h1>
     <div>
       <p>
         My name is Carlos Palacios. I am from Mexico, currently living in
@@ -18,37 +19,35 @@
         <ul>
           <li>
             Version Control (Sourcetree) <br>
-            <progress value="60" max="100">60%</progress>
+            <progress class="progressBar" value="60" max="100">60%</progress>
           </li>
           <li>
             Javascript <br>
-            <progress value="50" max="100">50%</progress>
+            <progress class="progressBar" value="50" max="100">50%</progress>
           </li>
           <li>
             Meteor Frontend and Backend <br>
-            <progress value="30" max="100">30%</progress>
+            <progress class="progressBar" value="30" max="100">30%</progress>
           </li>
           <li>
             HTML <br>
-            <progress value="60" max="100">60%</progress>
+            <progress class="progressBar" value="60" max="100">60%</progress>
           </li>
           <li>
             CSS <br>
-            <progress value="60" max="100">60%</progress>
+            <progress class="progressBar" value="60" max="100">60%</progress>
           </li>
         </ul>
     </div>
     <hr>
-    <div>
+    <div class="technologies">
       <h2>Technologies</h2>
-      <table>
+      <table class="techTable">
         <tr>
           <td><img src="https://d14xs1qewsqjcd.cloudfront.net/assets/og-image-logo.png"
           alt="meteor image" width="40%"></td>
           <td><img src="https://s3.amazonaws.com/cac-static-assets-prod/3.9.6/dist/common/images/product-icons/sourcetree.svg"
           alt="sourcetree image" width="60%"></td>
-        </tr>
-        <tr>
           <td colspan="2"><img src="http://html5beginners.com/wp-content/uploads/2014/09/js.png"
           alt="HTML CSS and Javscript images" width="70%"></td>
         </tr>
@@ -67,8 +66,8 @@
       </ul>
     </div>
     <hr>
-    <div>
-      <h3>Contact</h3>
+    <div id="contactInfo">
+      <h3>Contact:</h3>
       <p>Send E-mail for contact</p>
       <p>Name: <input type="text" name="name"></p>
       <p>E-mail: <input type="text" name="email"></p>
@@ -77,9 +76,6 @@
       <br>
       <button type="button" name="sendEmailButton">Click to send!</button>
     </div>
-    <hr>
-<div>
-<a href="#top">GO TO THE TOP</a>
-</div>
+    <hr style="clear:both">
   </body>
 </html>

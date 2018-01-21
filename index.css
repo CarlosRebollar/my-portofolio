@@ -1,0 +1,39 @@
+body {
+  color: white;
+}
+
+.progressBar {
+  background-color: #888844;
+  height: 15px;
+  border: 0;
+  border-radius: 9px;
+}
+
+#contactInfo {
+  float: right;
+}
+
+#title {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul {
+  background: #FF7F50;
+  padding: 20px;
+}
+
+ul li {
+  background: #DEB887;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+.techTable {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.technologies {
+  text-align: center;
+}

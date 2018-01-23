@@ -9,8 +9,13 @@ body {
   border-radius: 9px;
 }
 
-#contactInfo {
-  float: right;
+#info {
+  width:100%;
+}
+
+.contactInfo {
+  margin: 0 auto;
+  width: 25%;
 }
 
 #title {
@@ -27,6 +32,7 @@ ul li {
   background: #DEB887;
   padding: 5px;
   margin-left: 35px;
+  list-style-type: none;
 }
 
 .techTable {
@@ -36,4 +42,12 @@ ul li {
 
 .technologies {
   text-align: center;
+}
+
+.sendBtn {
+  border-radius: 10px;
+  background-color: #FF7F50;
+  color: white;
+  padding: 12px 28px;
+  margin-left: 90px;
 }
